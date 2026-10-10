@@ -1,0 +1,1 @@
+Invoices are issued monthly for active seats. Administrators can download a PDF receipt from the billing page after payment succeeds.

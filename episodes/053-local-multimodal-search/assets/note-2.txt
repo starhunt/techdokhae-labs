@@ -1,0 +1,1 @@
+INC-042: The checkout API returned HTTP 503 errors. Queue depth increased after a worker deployment. We rolled back the worker and error rates returned to normal.

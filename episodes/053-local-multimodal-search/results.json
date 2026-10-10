@@ -1,0 +1,1620 @@
+{
+  "createdAt": "2026-10-10T02:59:42.530065+00:00",
+  "model": "google/embeddinggemma-2",
+  "revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+  "device": "cpu",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "versions": {
+    "torch": "2.14.0",
+    "transformers": "5.19.0",
+    "sentence_transformers": "6.1.0"
+  },
+  "datasetSha256": "3602165be44e7ab33e6923c8af218f705327e5957ff29550ca5c253fada931da",
+  "vectorShape": [
+    12,
+    768
+  ],
+  "indexSeconds": [
+    7.5778309588786215,
+    7.96095895790495,
+    8.455409416928887,
+    8.64895883295685,
+    8.400566125055775,
+    8.292267250129953,
+    0.10003045806661248,
+    0.09735483303666115,
+    0.07362387515604496,
+    0.08744616713374853,
+    0.09436766617000103,
+    0.07077837502583861
+  ],
+  "results": [
+    {
+      "id": "q1",
+      "text": "서버 오류가 급증한 그래프",
+      "expected": [
+        "I1"
+      ],
+      "intent": "Korean visual search",
+      "rankings": {
+        "768": [
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.7205169200897217
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.6834712624549866
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.6624335646629333
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.6269565224647522
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.6146179437637329
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.6058284640312195
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.5983849763870239
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.5904353857040405
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.5850013494491577
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.5848244428634644
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.5575321912765503
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.5527949333190918
+          }
+        ],
+        "256": [
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.7499740123748779
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.7216001749038696
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.691360354423523
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.6429448127746582
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.6332975029945374
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.627578616142273
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.626950204372406
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.6248494386672974
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.6246366500854492
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.6035304069519043
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.5715715885162354
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.5701179504394531
+          }
+        ],
+        "128": [
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.8028455972671509
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.7978309392929077
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.7706036567687988
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.7682704925537109
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.7397568225860596
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.7249166965484619
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.7213631868362427
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.7195447683334351
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.7170457243919373
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.7009170055389404
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.6791095733642578
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.6668670177459717
+          }
+        ]
+      },
+      "querySeconds": 0.04396183299832046,
+      "literalTextMatches": []
+    },
+    {
+      "id": "q2",
+      "text": "architecture diagram with a message queue between an API and worker",
+      "expected": [
+        "I3"
+      ],
+      "intent": "English visual search",
+      "rankings": {
+        "768": [
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.7507944107055664
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.7503349184989929
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.6762048602104187
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.6255452632904053
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.6101033687591553
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.6068199872970581
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.5891740322113037
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.588418185710907
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.5749365091323853
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.5458366870880127
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.5387486219406128
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.5183320641517639
+          }
+        ],
+        "256": [
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.7920356392860413
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.7835524082183838
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.6896407008171082
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.6457065939903259
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.6352999210357666
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.6342000961303711
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.6338615417480469
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.6186014413833618
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.6132106781005859
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.5985546708106995
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.5695749521255493
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.50230872631073
+          }
+        ],
+        "128": [
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.8411596417427063
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.8250941634178162
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.7632756233215332
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.7534721493721008
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.7177179455757141
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.7152721881866455
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.7104812860488892
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.7015280723571777
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.6788637042045593
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.6756545305252075
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.6457830667495728
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.6194143295288086
+          }
+        ]
+      },
+      "querySeconds": 0.05314933299086988,
+      "literalTextMatches": []
+    },
+    {
+      "id": "q3",
+      "text": "결제에 실패했을 때 얼마나 기다렸다 다시 시도하나요?",
+      "expected": [
+        "T1",
+        "I5"
+      ],
+      "intent": "Korean semantic text/code search",
+      "rankings": {
+        "768": [
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.7859963178634644
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.7770631313323975
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.6840614080429077
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.6447606682777405
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.6242446899414062
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.6127647757530212
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.6100507974624634
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.5997500419616699
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.5972589254379272
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.5800825357437134
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.5622791051864624
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.5283867120742798
+          }
+        ],
+        "256": [
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.820425271987915
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.8072199821472168
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.7095896005630493
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.6792044639587402
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.6551574468612671
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.6395484209060669
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.6339492797851562
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.62337327003479
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.6166784763336182
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.5875473022460938
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.5865334272384644
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.5183765888214111
+          }
+        ],
+        "128": [
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.8712185621261597
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.8545752763748169
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.7516096830368042
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.7408292889595032
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.7376445531845093
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.7373332977294922
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.7063820362091064
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.6956301927566528
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.6943768262863159
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.656406044960022
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.6529843807220459
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.6276305913925171
+          }
+        ]
+      },
+      "querySeconds": 0.06151187513023615,
+      "literalTextMatches": []
+    },
+    {
+      "id": "q4",
+      "text": "INC-042",
+      "expected": [
+        "T2"
+      ],
+      "intent": "Exact identifier",
+      "rankings": {
+        "768": [
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.7833812832832336
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.6114839315414429
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.6100337505340576
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.6060793399810791
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.589229941368103
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.5864992141723633
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.5845375061035156
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.5803916454315186
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.571137547492981
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.5622520446777344
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.5534322261810303
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.5518409609794617
+          }
+        ],
+        "256": [
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.7982786297798157
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.6470198631286621
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.6334202885627747
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.6324952840805054
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.6235172748565674
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.6024054288864136
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.6007106304168701
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.5997258424758911
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.5980150699615479
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.5865054130554199
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.584047257900238
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.5767816305160522
+          }
+        ],
+        "128": [
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.8540995717048645
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.7695378065109253
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.7547289133071899
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.7527372241020203
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.7301805019378662
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.723766565322876
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.7198362350463867
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.7177309989929199
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.7131848335266113
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.6909488439559937
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.6887029409408569
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.6821845173835754
+          }
+        ]
+      },
+      "querySeconds": 0.04095170903019607,
+      "literalTextMatches": [
+        "T2"
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "paid invoice showing one hundred twenty dollars",
+      "expected": [
+        "I4"
+      ],
+      "intent": "Visual document search",
+      "rankings": {
+        "768": [
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.7453097105026245
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.6712742447853088
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.6280335187911987
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.5942596197128296
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.5899834036827087
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.5818634033203125
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.5671955347061157
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.5332612991333008
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.5294406414031982
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.5060405731201172
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.49205461144447327
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.4851996898651123
+          }
+        ],
+        "256": [
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.750705361366272
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.6754271984100342
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.6694198846817017
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.6190940141677856
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.6051464676856995
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.6032518744468689
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.5953430533409119
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.552299976348877
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.5486823916435242
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.525740385055542
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.49821895360946655
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.49171602725982666
+          }
+        ],
+        "128": [
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.8010557293891907
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.7650583982467651
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.7462406158447266
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.6947479248046875
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.68852698802948
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.6851160526275635
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.662255048751831
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.6471774578094482
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.6392309069633484
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.6274697780609131
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.5786126255989075
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.5347166061401367
+          }
+        ]
+      },
+      "querySeconds": 0.040032540913671255,
+      "literalTextMatches": []
+    },
+    {
+      "id": "q6",
+      "text": "disk usage increasing over time",
+      "expected": [
+        "I6"
+      ],
+      "intent": "Similar chart distractor",
+      "rankings": {
+        "768": [
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.7199933528900146
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.6312553882598877
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.6226114630699158
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.608264684677124
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.6036239862442017
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.5922006964683533
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.580582857131958
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.579662024974823
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.5649386048316956
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.5611448287963867
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.5494769811630249
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.5482500195503235
+          }
+        ],
+        "256": [
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.7335289120674133
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.6599217057228088
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.6520591974258423
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.6365147829055786
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.6172089576721191
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.6171255707740784
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.6114557981491089
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.6059975624084473
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.6034491658210754
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.5956243276596069
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.5828893184661865
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.5681064128875732
+          }
+        ],
+        "128": [
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.8095415830612183
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.7869094014167786
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.7636908888816833
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.7633824944496155
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.7538352012634277
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.7343276143074036
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.7337602376937866
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.728508472442627
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.7242621779441833
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.7204512357711792
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.7166924476623535
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.6897484064102173
+          }
+        ]
+      },
+      "querySeconds": 0.039228125009685755,
+      "literalTextMatches": []
+    },
+    {
+      "id": "q7",
+      "text": "checkout server is healthy with no errors",
+      "expected": [
+        "I2"
+      ],
+      "intent": "Healthy vs incident",
+      "rankings": {
+        "768": [
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.7651964426040649
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.7328767776489258
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.7178373336791992
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.6715502738952637
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.6394925117492676
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.6342161893844604
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.6124916076660156
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.6049118638038635
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.6023348569869995
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.5940700173377991
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.5872477293014526
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.5843414664268494
+          }
+        ],
+        "256": [
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.7770365476608276
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.7740883231163025
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.7475126385688782
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.697615385055542
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.6752784848213196
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.6722819209098816
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.6466811299324036
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.6355595588684082
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.6165068745613098
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.5999000072479248
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.5992490649223328
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.594191312789917
+          }
+        ],
+        "128": [
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.8547701835632324
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.8522768020629883
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.841773271560669
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.7671377658843994
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.7435110807418823
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.7402572631835938
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.7339366674423218
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.7239826917648315
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.7234432697296143
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.7225049734115601
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.7213342785835266
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.7197058200836182
+          }
+        ]
+      },
+      "querySeconds": 0.04128700005821884,
+      "literalTextMatches": []
+    },
+    {
+      "id": "q8",
+      "text": "환불 승인 담당자의 이름",
+      "expected": [],
+      "intent": "Absent fact; no answer exists",
+      "rankings": {
+        "768": [
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.6286988258361816
+          },
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.6256706714630127
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.6246424913406372
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.6155438423156738
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.5926526784896851
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.581170380115509
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.5806912779808044
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.5654163360595703
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.5554945468902588
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.5478032827377319
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.5376611948013306
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.5030962228775024
+          }
+        ],
+        "256": [
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.6898062229156494
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.6745114326477051
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.6707919836044312
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.6673351526260376
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.656241774559021
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.6399842500686646
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.6127512454986572
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.6020574569702148
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.6010652780532837
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.588218629360199
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.587235689163208
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.5644567012786865
+          }
+        ],
+        "128": [
+          {
+            "id": "T5",
+            "kind": "text",
+            "score": 0.7923939824104309
+          },
+          {
+            "id": "T1",
+            "kind": "text",
+            "score": 0.7775190472602844
+          },
+          {
+            "id": "T2",
+            "kind": "text",
+            "score": 0.7634983062744141
+          },
+          {
+            "id": "T3",
+            "kind": "text",
+            "score": 0.7471999526023865
+          },
+          {
+            "id": "I4",
+            "kind": "image",
+            "score": 0.7445245981216431
+          },
+          {
+            "id": "I5",
+            "kind": "image",
+            "score": 0.7385623455047607
+          },
+          {
+            "id": "T4",
+            "kind": "text",
+            "score": 0.7319236993789673
+          },
+          {
+            "id": "I3",
+            "kind": "image",
+            "score": 0.7288271188735962
+          },
+          {
+            "id": "I2",
+            "kind": "image",
+            "score": 0.7161120772361755
+          },
+          {
+            "id": "I1",
+            "kind": "image",
+            "score": 0.7130736112594604
+          },
+          {
+            "id": "I6",
+            "kind": "image",
+            "score": 0.7106397151947021
+          },
+          {
+            "id": "T6",
+            "kind": "text",
+            "score": 0.7053841352462769
+          }
+        ]
+      },
+      "querySeconds": 0.0422199999447912,
+      "literalTextMatches": []
+    }
+  ],
+  "elapsedSeconds": 182.1544827078469,
+  "scope": "12 self-authored items and 8 predeclared illustrative queries; not an accuracy benchmark. Image file names and descriptions are not model inputs. Cosine scores are not probabilities. Model fetched before local inference."
+}

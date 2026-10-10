@@ -1,0 +1,1 @@
+When a card charge fails temporarily, wait for an increasing delay before trying again. Stop after three attempts. Use an idempotency key so a retry does not charge the customer twice.

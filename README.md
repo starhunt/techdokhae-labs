@@ -6,6 +6,7 @@
 
 | 회차 | 주제 | 소스·실행 안내 | ZIP |
 | --- | --- | --- | --- |
+| EP053 | 파일 이름을 몰라도 찾는 AI · EmbeddingGemma 2 | [실습 폴더](episodes/053-local-multimodal-search/) | [v1.0.0 다운로드](https://github.com/starhunt/techdokhae-labs/releases/download/ep053-v1.0.0/techdokhae-ep053-local-search-v1.0.0.zip) |
 | EP052 | Claude Mods, 내 개발 작업 공간을 만들다 | [실습 폴더](episodes/052-claude-mods/) | [v1.0.0 다운로드](https://github.com/starhunt/techdokhae-labs/releases/download/ep052-v1.0.0/techdokhae-ep052-claude-mods-v1.0.0.zip) |
 
 [테크독해 YouTube 채널](https://www.youtube.com/channel/UCwwkFt73RwZkh0TYcivgrQA)
@@ -31,4 +32,4 @@ cd techdokhae-labs/episodes/052-claude-mods
 
 ## 라이선스
 
-이 저장소의 자체 작성 실습 코드는 [MIT License](LICENSE)로 제공합니다. 예제에서 사용하는 외부 제품·서비스와 의존성에는 각각의 이용 조건이 적용됩니다. 이 저장소는 Anthropic의 공식 배포물이 아닙니다.
+이 저장소의 자체 작성 실습 코드는 [MIT License](LICENSE)로 제공합니다. 예제에서 사용하는 외부 제품·서비스와 의존성에는 각각의 이용 조건이 적용됩니다. 이 저장소는 Google 또는 Anthropic의 공식 배포물이 아닙니다.

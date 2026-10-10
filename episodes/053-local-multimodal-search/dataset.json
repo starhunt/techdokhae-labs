@@ -1,0 +1,149 @@
+{
+  "createdAt": "2026-10-10T02:54:48.886Z",
+  "scope": "Self-authored demonstration corpus, not a representative benchmark. Queries and relevance expectations frozen before model inference. File names/labels are not embedded for images.",
+  "items": [
+    {
+      "id": "I1",
+      "kind": "image",
+      "path": "assets/item-1.png",
+      "label": "Error monitoring"
+    },
+    {
+      "id": "I2",
+      "kind": "image",
+      "path": "assets/item-2.png",
+      "label": "Service monitoring"
+    },
+    {
+      "id": "I3",
+      "kind": "image",
+      "path": "assets/item-3.png",
+      "label": "Queue architecture"
+    },
+    {
+      "id": "I4",
+      "kind": "image",
+      "path": "assets/item-4.png",
+      "label": "Monthly invoice"
+    },
+    {
+      "id": "I5",
+      "kind": "image",
+      "path": "assets/item-5.png",
+      "label": "Code changes"
+    },
+    {
+      "id": "I6",
+      "kind": "image",
+      "path": "assets/item-6.png",
+      "label": "Capacity monitoring"
+    },
+    {
+      "id": "T1",
+      "kind": "text",
+      "path": "assets/note-1.txt",
+      "label": "retry-policy",
+      "text": "When a card charge fails temporarily, wait for an increasing delay before trying again. Stop after three attempts. Use an idempotency key so a retry does not charge the customer twice."
+    },
+    {
+      "id": "T2",
+      "kind": "text",
+      "path": "assets/note-2.txt",
+      "label": "incident-report",
+      "text": "INC-042: The checkout API returned HTTP 503 errors. Queue depth increased after a worker deployment. We rolled back the worker and error rates returned to normal."
+    },
+    {
+      "id": "T3",
+      "kind": "text",
+      "path": "assets/note-3.txt",
+      "label": "invoice-policy",
+      "text": "Invoices are issued monthly for active seats. Administrators can download a PDF receipt from the billing page after payment succeeds."
+    },
+    {
+      "id": "T4",
+      "kind": "text",
+      "path": "assets/note-4.txt",
+      "label": "queue-guide",
+      "text": "The API enqueues a job and immediately returns a job ID. A worker consumes jobs asynchronously. The job result is written to the database."
+    },
+    {
+      "id": "T5",
+      "kind": "text",
+      "path": "assets/note-5.txt",
+      "label": "request-timeout",
+      "text": "The client waits up to ten seconds for a response. A timeout does not prove that the server did not finish the request. Query the request ID before repeating a payment."
+    },
+    {
+      "id": "T6",
+      "kind": "text",
+      "path": "assets/note-6.txt",
+      "label": "release-guide",
+      "text": "Each release uses a canary deployment, followed by a gradual rollout. Watch service health dashboards before increasing traffic."
+    }
+  ],
+  "queries": [
+    {
+      "id": "q1",
+      "text": "서버 오류가 급증한 그래프",
+      "expected": [
+        "I1"
+      ],
+      "intent": "Korean visual search"
+    },
+    {
+      "id": "q2",
+      "text": "architecture diagram with a message queue between an API and worker",
+      "expected": [
+        "I3"
+      ],
+      "intent": "English visual search"
+    },
+    {
+      "id": "q3",
+      "text": "결제에 실패했을 때 얼마나 기다렸다 다시 시도하나요?",
+      "expected": [
+        "T1",
+        "I5"
+      ],
+      "intent": "Korean semantic text/code search"
+    },
+    {
+      "id": "q4",
+      "text": "INC-042",
+      "expected": [
+        "T2"
+      ],
+      "intent": "Exact identifier"
+    },
+    {
+      "id": "q5",
+      "text": "paid invoice showing one hundred twenty dollars",
+      "expected": [
+        "I4"
+      ],
+      "intent": "Visual document search"
+    },
+    {
+      "id": "q6",
+      "text": "disk usage increasing over time",
+      "expected": [
+        "I6"
+      ],
+      "intent": "Similar chart distractor"
+    },
+    {
+      "id": "q7",
+      "text": "checkout server is healthy with no errors",
+      "expected": [
+        "I2"
+      ],
+      "intent": "Healthy vs incident"
+    },
+    {
+      "id": "q8",
+      "text": "환불 승인 담당자의 이름",
+      "expected": [],
+      "intent": "Absent fact; no answer exists"
+    }
+  ]
+}

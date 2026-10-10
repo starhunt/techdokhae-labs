@@ -1,0 +1,97 @@
+{
+  "model": "google/embeddinggemma-2",
+  "revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+  "dimensions": 768,
+  "items": [
+    {
+      "id": "I1",
+      "kind": "image",
+      "path": "assets/item-1.png",
+      "label": "Error monitoring",
+      "sha256": "d750125d0d088b608288629a2d34261719a1ef47ddec73136a2a66ef2b86b225"
+    },
+    {
+      "id": "I2",
+      "kind": "image",
+      "path": "assets/item-2.png",
+      "label": "Service monitoring",
+      "sha256": "b1856db6f951403826fc81e12acc513d7605e23a5d498bdb2327b8d6fecc1f65"
+    },
+    {
+      "id": "I3",
+      "kind": "image",
+      "path": "assets/item-3.png",
+      "label": "Queue architecture",
+      "sha256": "ae4b9c4b1d25c9db0c2327944a12084c03cdea3f13833128641633a789fbee4b"
+    },
+    {
+      "id": "I4",
+      "kind": "image",
+      "path": "assets/item-4.png",
+      "label": "Monthly invoice",
+      "sha256": "8b244bfc4a9247d2891e0c3c18ecbfc7fc217f9f3e89bb8d471afa22b258f4f7"
+    },
+    {
+      "id": "I5",
+      "kind": "image",
+      "path": "assets/item-5.png",
+      "label": "Code changes",
+      "sha256": "09cf7e37257705af8c59c4b06dbf1385de8ee4480698ee81b14713a442aae3f9"
+    },
+    {
+      "id": "I6",
+      "kind": "image",
+      "path": "assets/item-6.png",
+      "label": "Capacity monitoring",
+      "sha256": "fd514f0451bf24645d4654f071d3f7679d4ed43f117001c79af6bbfb4f529113"
+    },
+    {
+      "id": "T1",
+      "kind": "text",
+      "path": "assets/note-1.txt",
+      "label": "retry-policy",
+      "text": "When a card charge fails temporarily, wait for an increasing delay before trying again. Stop after three attempts. Use an idempotency key so a retry does not charge the customer twice.",
+      "sha256": "9d005715100ecdf069b804a709058af88f99740c775cb7857eca5f59b0af1bfe"
+    },
+    {
+      "id": "T2",
+      "kind": "text",
+      "path": "assets/note-2.txt",
+      "label": "incident-report",
+      "text": "INC-042: The checkout API returned HTTP 503 errors. Queue depth increased after a worker deployment. We rolled back the worker and error rates returned to normal.",
+      "sha256": "35428e558055f3e901d7767621d0cf980055353d9551dcdf9cd6b9f4e95d2c95"
+    },
+    {
+      "id": "T3",
+      "kind": "text",
+      "path": "assets/note-3.txt",
+      "label": "invoice-policy",
+      "text": "Invoices are issued monthly for active seats. Administrators can download a PDF receipt from the billing page after payment succeeds.",
+      "sha256": "305c6cd906cbdd7af81e8b3bf1b8befd0b2b3330f0301e0d7b183be02e0919be"
+    },
+    {
+      "id": "T4",
+      "kind": "text",
+      "path": "assets/note-4.txt",
+      "label": "queue-guide",
+      "text": "The API enqueues a job and immediately returns a job ID. A worker consumes jobs asynchronously. The job result is written to the database.",
+      "sha256": "43dafc80e9280fd7a2f2ce713dc29e7d9ed5c1515321b0cc48b5ceadd61b3a9b"
+    },
+    {
+      "id": "T5",
+      "kind": "text",
+      "path": "assets/note-5.txt",
+      "label": "request-timeout",
+      "text": "The client waits up to ten seconds for a response. A timeout does not prove that the server did not finish the request. Query the request ID before repeating a payment.",
+      "sha256": "6d87b0cad2945486cf29dde35c2015f14c7df29da1a85bf60606bb9098849abe"
+    },
+    {
+      "id": "T6",
+      "kind": "text",
+      "path": "assets/note-6.txt",
+      "label": "release-guide",
+      "text": "Each release uses a canary deployment, followed by a gradual rollout. Watch service health dashboards before increasing traffic.",
+      "sha256": "eabd0cbb9076d3a689862c20f720de16e9be8b9fbf9e62f63b73ea3365e3aa55"
+    }
+  ]
+}

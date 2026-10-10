@@ -1,0 +1,1 @@
+The API enqueues a job and immediately returns a job ID. A worker consumes jobs asynchronously. The job result is written to the database.

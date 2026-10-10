@@ -1,0 +1,1 @@
+Each release uses a canary deployment, followed by a gradual rollout. Watch service health dashboards before increasing traffic.
